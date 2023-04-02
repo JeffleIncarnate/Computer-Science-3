@@ -29,4 +29,5 @@ def recur(n: int) -> int:
 
     recur(n + 1)
 
+
 recur(0)

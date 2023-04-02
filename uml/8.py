@@ -9,6 +9,7 @@ class TeamSport:
     def __str__(self):
         return f"{self.sport.title()} is the team sport\nThere are {self.num_of_playes} in a {self.sport.title()} team\n"
 
+
 if __name__ == "__main__":
     print(TeamSport("Cricket", 11))
     print(TeamSport("Netball", 7))

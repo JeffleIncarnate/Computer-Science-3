@@ -4,9 +4,10 @@ class OneString:
 
     def __str__(self):
         """
-            Return the string
+        Return the string
         """
         return f"This string stores: '{self.one_string}'"
+
 
 if __name__ == "__main__":
     print(OneString("Sussy among us"))

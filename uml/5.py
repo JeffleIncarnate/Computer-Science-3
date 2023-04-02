@@ -1,5 +1,6 @@
 from datetime import datetime
 
+
 class Person:
     def __init__(self, name: str, birth_year: int, is_male: bool):
         self.name = name
@@ -9,15 +10,16 @@ class Person:
 
     def get_age(self):
         """
-            Returns the aproximate age of the user.
+        Returns the aproximate age of the user.
         """
         return self.current_year - self.birth_year
 
     def __str__(self):
         """
-            Returns all the info for a user
+        Returns all the info for a user
         """
         return f"User name: {self.name.title()}\nAge: {self.get_age()}\nGender: {'male' if self.is_male else 'female'}\n"
+
 
 if __name__ == "__main__":
     print(Person("dhruv", 2006, True))
