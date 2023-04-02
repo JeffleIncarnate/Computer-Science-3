@@ -2,7 +2,7 @@ class TeamSport:
     def __init__(self, sport: str, num_of_playes: int):
         self.store_info(sport, num_of_playes)
 
-    def store_info(self, sport: str, num_of_playes: int):
+    def store_info(self, sport: str, num_of_playes: int) -> None:
         self.sport = sport
         self.num_of_playes = num_of_playes
 

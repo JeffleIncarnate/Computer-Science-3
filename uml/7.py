@@ -2,7 +2,7 @@ class OneString:
     def __init__(self, one_string: str):
         self.one_string = one_string
 
-    def setter(self, setter_string: str):
+    def setter(self, setter_string: str) -> None:
         self.one_string = setter_string
 
     def __str__(self):
